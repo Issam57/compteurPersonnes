@@ -21,6 +21,10 @@ h1 {
     font-family: Oliver;
     font-size: 100px!important;
 }
+svg{
+    width: 80px;
+    height: 80px;
+}
 
 .image {
     text-align: center;
