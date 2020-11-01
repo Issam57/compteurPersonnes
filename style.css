@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Oliver";
+    src: url(fonts/Oliver\ Blush\ Free.ttf);
+}
+
+#generale {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+body {
+    background: linear-gradient(#44bd32, #c8d6e5);
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: Oliver;
+    font-size: 100px!important;
+}
+
+.compteur {
+    padding: 50px;
+    border: 1px whitesmoke solid;
+    background-color: #2d3436;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 50px black;
+}
+
+#btn {
+    text-align: center;
+}
+
+#count {
+    font-size: 80px;
+}
+
+#btn1 {
+    padding-bottom: 100px;
+    font-size: 60px;
+    width: 80px;
+    height: 80px;
+    border-radius: 60%;
+}
+
+#btn2 {
+    padding-bottom: 100px;
+    font-size: 65px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#btn3 {
+    padding: 20px;
+}
+
+#titre {
+    animation-name: titre;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes titre {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
