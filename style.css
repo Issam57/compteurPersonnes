@@ -19,6 +19,10 @@ h1 {
     font-size: 100px!important;
 }
 
+.image {
+    text-align: center;
+}
+
 .compteur {
     padding: 50px;
     border: 1px whitesmoke solid;
@@ -73,5 +77,21 @@ h1 {
     }
     100% {
         opacity: 1;
+    }
+}
+
+#aiguilles {
+    animation-name: aiguilles;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes aiguilles {
+    0%{
+        rotate: (45deg);
+    }
+    100%{
+        rotate: (90deg);
     }
 }
