@@ -1,2 +1,2 @@
 # compteurPersonnes
-Compteur permet de comptabiliser des personnes physiques.
+Compteur simple qui permet de comptabiliser des personnes physiques.
