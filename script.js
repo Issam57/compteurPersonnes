@@ -3,6 +3,8 @@ let counter = 0;
 let btn1 = $('#btn1');
 let btn2 = $('#btn2');
 let btn3 = $('#btn3');
+let doc = $(document);
+let svg = $('svg');
 
 
     btn1.click(() => {
@@ -33,5 +35,9 @@ let btn3 = $('#btn3');
         counter = '00' + 0;
         count.text(counter);
     });
+
+    doc.keydown(() => {
+        svg.toggle();
+    })
 
 

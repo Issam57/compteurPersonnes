@@ -13,6 +13,9 @@ body {
     background: linear-gradient(#44bd32, #c8d6e5);
     min-height: 100vh;
 }
+.press {
+    text-align: center;
+}
 
 h1 {
     font-family: Oliver;
