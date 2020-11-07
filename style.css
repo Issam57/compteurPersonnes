@@ -49,23 +49,38 @@ svg{
 }
 
 #btn1 {
+    background-color: green;
     padding-bottom: 100px;
     font-size: 60px;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 60%;
 }
 
+#btn1:hover{
+    opacity: 0.8;
+}
+
 #btn2 {
+    background-color: red;
     padding-bottom: 100px;
-    font-size: 65px;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
+}
+
+#btn2:hover{
+    opacity: 0.8;
 }
 
 #btn3 {
+    background-color: blue;
     padding: 20px;
+}
+
+#btn3:hover{
+    opacity: 0.8;
 }
 
 #titre {
